@@ -1,0 +1,13 @@
+server:
+  port: 9041
+
+spring:
+  application:
+    name: PAYMENT-SERVICE
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:Password1234@cluster0.qv3omtv.mongodb.net/?retryWrites=true&w=majority
+      database: paymentdb
+
+  kafka:
+    bootstrap-servers: localhost:9092

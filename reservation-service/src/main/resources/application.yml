@@ -1,0 +1,10 @@
+server:
+  port: 9031
+
+spring:
+  application:
+    name: RESERVATION-SERVICE
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:Password1234@cluster0.qv3omtv.mongodb.net/?retryWrites=true&w=majority
+      database: reservationdb
